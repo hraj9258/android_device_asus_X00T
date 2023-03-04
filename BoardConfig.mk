@@ -61,6 +61,9 @@ TARGET_USERIMAGES_USE_EXT4 := true
 # Recovery Fstab
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
+# Filesystem
+TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
+
 # VNDK
 BOARD_VNDK_VERSION := current
 
