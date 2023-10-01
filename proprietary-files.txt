@@ -51,9 +51,6 @@ vendor/lib/vendor.qti.hardware.alarm@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 
-# Atrace
--vendor/etc/vintf/manifest/android.hardware.atrace@1.0-service.xml
-
 # Audio
 etc/permissions/audiosphere.xml
 -framework/audiosphere.jar
@@ -2203,9 +2200,6 @@ vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 # Charger
 vendor/bin/hvdcp_opti
 
-# Configstore
-vendor/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so
-
 # DPM
 -framework/tcmclient.jar
 product/bin/dpmd
@@ -2330,7 +2324,6 @@ lib64/libsdm-disp-apis.so
 vendor/lib/hw/gralloc.sdm660.so
 vendor/lib/hw/hwcomposer.sdm660.so
 vendor/lib/hw/memtrack.sdm660.so
-vendor/lib/libdrm.so
 vendor/lib/libdrmutils.so
 vendor/lib/libgpu_tonemapper.so
 vendor/lib/libgrallocutils.so
@@ -2730,7 +2723,6 @@ vendor/lib64/libstagefrighthw.so
 
 # NFC
 vendor/bin/hw/vendor.nxp.hardware.nfc@1.1-service
-vendor/bin/nqnfcinfo
 vendor/etc/ext_xml/android.hardware.nfc.hce.xml
 vendor/etc/ext_xml/android.hardware.nfc.xml
 vendor/etc/ext_xml/com.android.nfc_extras.xml
@@ -2792,8 +2784,6 @@ vendor/lib/libqti-perfd-client.so
 vendor/lib/libqti-perfd.so
 vendor/lib/libqti-util.so
 vendor/lib/libqti-utils.so
-vendor/lib/vendor.qti.hardware.perf@1.0.so
-vendor/lib/vendor.qti.hardware.perf@2.0.so
 vendor/lib64/libadaptlaunch.so
 vendor/lib64/liblearningmodule.so
 vendor/lib64/libmeters-ns.so
@@ -2804,8 +2794,6 @@ vendor/lib64/libqti-perfd-client.so
 vendor/lib64/libqti-perfd.so
 vendor/lib64/libqti-util.so
 vendor/lib64/libqti-utils.so
-vendor/lib64/vendor.qti.hardware.perf@1.0.so
-vendor/lib64/vendor.qti.hardware.perf@2.0.so
 
 # Perf-IOP
 product/lib/vendor.qti.hardware.iop@1.0.so
@@ -3273,7 +3261,6 @@ vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 # Thermal
 vendor/bin/thermal-engine
 vendor/etc/thermal-engine.conf
--vendor/etc/vintf/manifest/android.hardware.thermal@2.0-service.xml
 vendor/lib/libthermalclient.so
 vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalioctl.so
@@ -3467,13 +3454,11 @@ vendor/etc/init/ipacm-diag.rc
 vendor/etc/init/ipacm.rc
 vendor/etc/init/netmgrd.rc
 vendor/etc/init/port-bridge.rc
-vendor/etc/init/rild.rc
 vendor/etc/init/tloc_daemon.rc
 vendor/etc/init/vendor.ims.airtrigger@1.0-service.rc
 vendor/etc/init/vendor.ims.airtrigger@1.1-service.rc
 vendor/etc/init/vendor.ims.glovemode@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.cryptfshw@1.0-service-qti.rc
-vendor/etc/init/vendor.rild.rc
 vendor/etc/permissions/vendor.qti.hardware.factory.xml
 vendor/lib/btaudio_offload_if.so
 vendor/lib/dualcali_dump.bin
