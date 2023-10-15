@@ -59,6 +59,8 @@ BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 
 TARGET_USERIMAGES_USE_EXT4 := true
 
+TARGET_COPY_OUT_VENDOR := vendor
+
 # Recovery Fstab
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/recovery.fstab
 
