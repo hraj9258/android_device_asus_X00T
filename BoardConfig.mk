@@ -71,8 +71,6 @@ TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 BOARD_VNDK_VERSION := current
 
 # SEPolicy
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += device/qcom/sepolicy/private
-BOARD_PLAT_PUBLIC_SEPOLICY_DIR += device/qcom/sepolicy/public
 
 # Inherit from the proprietary version
 include vendor/asus/X00T/BoardConfigVendor.mk
