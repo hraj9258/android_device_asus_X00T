@@ -68,6 +68,9 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/recovery.fstab
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
+# Vendor Manifest
+DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/vendor_manifest.xml
+
 # VNDK
 BOARD_VNDK_VERSION := current
 
