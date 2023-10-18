@@ -3397,7 +3397,6 @@ vendor/bin/hbtp_daemon
 vendor/bin/hw/vendor.ims.airtrigger@1.0-service
 vendor/bin/hw/vendor.ims.airtrigger@1.1-service
 vendor/bin/hw/vendor.ims.glovemode@1.0-service
-vendor/bin/hw/vendor.qti.hardware.cryptfshw@1.0-service-qti
 vendor/bin/ipacm-diag
 vendor/bin/KmInstallKeybox
 vendor/bin/link_manifest
@@ -3458,7 +3457,6 @@ vendor/etc/init/tloc_daemon.rc
 vendor/etc/init/vendor.ims.airtrigger@1.0-service.rc
 vendor/etc/init/vendor.ims.airtrigger@1.1-service.rc
 vendor/etc/init/vendor.ims.glovemode@1.0-service.rc
-vendor/etc/init/vendor.qti.hardware.cryptfshw@1.0-service-qti.rc
 vendor/etc/permissions/vendor.qti.hardware.factory.xml
 vendor/lib/btaudio_offload_if.so
 vendor/lib/dualcali_dump.bin
@@ -3468,8 +3466,6 @@ vendor/lib/libbatterylistener.so
 vendor/lib/libcacertclient.so
 vendor/lib/libcirrusspkrprot.so
 vendor/lib/libcomprcapture.so
-vendor/lib/libcryptfshwcommon.so
-vendor/lib/libcryptfshwhidl.so
 vendor/lib/libdiagjni.so
 vendor/lib/libexthwplugin.so
 vendor/lib/libfastcrc.so
@@ -3495,8 +3491,6 @@ vendor/lib64/libbatterylistener.so
 vendor/lib64/libcacertclient.so
 vendor/lib64/libcirrusspkrprot.so
 vendor/lib64/libcomprcapture.so
-vendor/lib64/libcryptfshwcommon.so
-vendor/lib64/libcryptfshwhidl.so
 vendor/lib64/libdiagjni.so
 vendor/lib64/libexthwplugin.so
 vendor/lib64/libfastcrc.so
