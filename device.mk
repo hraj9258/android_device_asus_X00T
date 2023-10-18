@@ -9,6 +9,10 @@ TARGET_SCREEN_WIDTH := 1080
 #PRODUCT_AAPT_CONFIG :=
 #PRODUCT_AAPT_PREF_CONFIG :=
 
+# Displayconfig Vendor
+PRODUCT_PACKAGES += \
+    vendor.display.config@1.0.vendor
+
 # Gatekeeper Vendor
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor
