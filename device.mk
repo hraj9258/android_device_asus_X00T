@@ -18,6 +18,10 @@ PRODUCT_PACKAGES += \
     libhidltransport.vendor \
     libhwbinder.vendor 
 
+# Keymaster Vendor
+PRODUCT_PACKAGES += \
+    android.hardware.keymaster@3.0.vendor
+
 # Overlay
 #PRODUCT_PACKAGE_OVERLAYS := device/asus/X00T/overlay
 
