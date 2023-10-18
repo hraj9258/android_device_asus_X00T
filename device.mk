@@ -9,6 +9,15 @@ TARGET_SCREEN_WIDTH := 1080
 #PRODUCT_AAPT_CONFIG :=
 #PRODUCT_AAPT_PREF_CONFIG :=
 
+# Gatekeeper Vendor
+PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0.vendor
+
+# HIDL Vendor
+PRODUCT_PACKAGES += \
+    libhidltransport.vendor \
+    libhwbinder.vendor 
+
 # Overlay
 #PRODUCT_PACKAGE_OVERLAYS := device/asus/X00T/overlay
 
