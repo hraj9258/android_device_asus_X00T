@@ -2,7 +2,7 @@
 prebuilt_etc{
     name: "fstab.qcom",
     src: "etc/fstab.qcom",
-    soc_specific: true,
+    soc_specific: true
 }
 
 
@@ -39,10 +39,10 @@ prebuilt_etc{
     relative_install_path: "init/hw"
 }
 prebuilt_etc{
-    name: "ueventd.qcom.rc",
-    src: "etc/init/hw/ueventd.qcom.rc",
+    name: "ueventd.rc.vendor",
+    src: "etc/ueventd.rc",
     soc_specific: true,
-    relative_install_path: "init/hw"
+    filename_from_src: true
 }
 
 
