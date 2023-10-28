@@ -1,6 +1,10 @@
 # Inherit device proprietary system files
 $(call inherit-product-if-exists, vendor/asus/X00T/X00T-vendor.mk)
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth@1.0.vendor
+    
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
@@ -13,6 +17,10 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_PACKAGES += \
     vendor.display.config@1.0.vendor
 
+# DRM
+PRODUCT_PACKAGES += \
+    android.hardware.drm@1.0.vendor 
+    
 # Gatekeeper Vendor
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor
@@ -22,12 +30,20 @@ PRODUCT_PACKAGES += \
     libhidltransport.vendor \
     libhwbinder.vendor 
 
+# Json lib
+PRODUCT_PACKAGES += \
+    libjson
+
 # Keymaster Vendor
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0.vendor
 
 # Overlay
 #PRODUCT_PACKAGE_OVERLAYS := device/asus/X00T/overlay
+
+# Perf
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.perf@2.0.vendor
 
 # RootDir Init Rc Files
 PRODUCT_PACKAGES += \
@@ -49,3 +65,11 @@ PRODUCT_PACKAGES += \
     init.qcom.sensors.sh \
     init.qcom.sh \
     init.qcom.usb.sh
+
+# Sensorservice
+PRODUCT_PACKAGES += \
+    android.frameworks.sensorservice@1.0.vendor
+
+# vndfwk_detect
+PRODUCT_PACKAGES += \
+    libqti_vndfwk_detect.vendor
