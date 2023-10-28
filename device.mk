@@ -33,6 +33,9 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@1.1.vendor \    
     android.hardware.gnss@2.0.vendor
     
+PRODUCT_PACKAGES += \
+    android.hardware.health@1.0.vendor 
+    
     
 # HIDL Vendor
 PRODUCT_PACKAGES += \
