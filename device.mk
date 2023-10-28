@@ -3,8 +3,9 @@ $(call inherit-product-if-exists, vendor/asus/X00T/X00T-vendor.mk)
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    android.hardware.bluetooth@1.0.vendor
-    
+    android.hardware.bluetooth@1.0.vendor \
+    vendor.qti.hardware.btconfigstore@1.0.vendor
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
