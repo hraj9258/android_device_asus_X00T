@@ -19,12 +19,18 @@ PRODUCT_PACKAGES += \
 
 # DRM
 PRODUCT_PACKAGES += \
-    android.hardware.drm@1.0.vendor 
+    android.hardware.drm@1.0.vendor \
+    android.hardware.drm@1.1.vendor 
+
     
 # Gatekeeper Vendor
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor
 
+# Gnss
+PRODUCT_PACKAGES += \
+    android.hardware.gnss@1.0.vendor 
+    
 # HIDL Vendor
 PRODUCT_PACKAGES += \
     libhidltransport.vendor \
@@ -69,6 +75,10 @@ PRODUCT_PACKAGES += \
 # Sensorservice
 PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0.vendor
+
+# Tinyxml
+PRODUCT_PACKAGES += \
+    libtinyxml
 
 # vndfwk_detect
 PRODUCT_PACKAGES += \
