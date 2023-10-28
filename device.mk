@@ -32,11 +32,12 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@1.0.vendor \
     android.hardware.gnss@1.1.vendor \    
     android.hardware.gnss@2.0.vendor
-    
+
+# Health
 PRODUCT_PACKAGES += \
-    android.hardware.health@1.0.vendor 
-    
-    
+    android.hardware.health@1.0.vendor \
+    android.hardware.health@2.0.vendor
+
 # HIDL Vendor
 PRODUCT_PACKAGES += \
     libhidltransport.vendor \
