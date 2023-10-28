@@ -29,7 +29,9 @@ PRODUCT_PACKAGES += \
 
 # Gnss
 PRODUCT_PACKAGES += \
-    android.hardware.gnss@1.0.vendor 
+    android.hardware.gnss@1.0.vendor \
+    android.hardware.gnss@1.1.vendor 
+    
     
 # HIDL Vendor
 PRODUCT_PACKAGES += \
@@ -50,6 +52,10 @@ PRODUCT_PACKAGES += \
 # Perf
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@2.0.vendor
+
+# Protobuf
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-lite-vendorcompat
 
 # RootDir Init Rc Files
 PRODUCT_PACKAGES += \
