@@ -9,6 +9,20 @@ prebuilt_etc{
 // Init Scripts
 
 prebuilt_etc{
+    name: "init.amt.rc",
+    src: "etc/init/hw/init.amt.rc",
+    soc_specific: true,
+    relative_install_path: "init/hw"
+}
+
+prebuilt_etc{
+    name: "init.amt.target.rc",
+    src: "etc/init/hw/init.amt.target.rc",
+    soc_specific: true,
+    relative_install_path: "init/hw"
+}
+
+prebuilt_etc{
     name: "init.msm.usb.configfs.rc",
     src: "etc/init/hw/init.msm.usb.configfs.rc",
     soc_specific: true,
