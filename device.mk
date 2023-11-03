@@ -76,7 +76,8 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     fstab.qcom \
     ueventd.rc.vendor \
-    init.recovery.qcom.rc
+    init.recovery.qcom.rc \
+    init.recovery.usb.rc
 
 # RootDir Shell Scripts
 PRODUCT_PACKAGES += \
