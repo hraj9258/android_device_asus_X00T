@@ -69,6 +69,8 @@ PRODUCT_PACKAGES += \
 
 # RootDir Init Rc Files
 PRODUCT_PACKAGES += \
+    init.amt.rc \
+    init.amt.target.rc \
     init.msm.usb.configfs.rc \
     init.qcom.factory.rc \
     init.qcom.rc \
