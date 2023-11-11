@@ -16,7 +16,8 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Displayconfig Vendor
 PRODUCT_PACKAGES += \
-    vendor.display.config@1.0.vendor
+    vendor.display.config@1.0.vendor \
+    vendor.display.config@1.1.vendor
 
 # DRM
 PRODUCT_PACKAGES += \
